@@ -59,6 +59,7 @@
     color: var(--hospital-green);
   }
   .navbar-email {
+    user-select: none;
     cursor: pointer;
     color: var(--very-light-pink);
     font-size: var(--sm);
