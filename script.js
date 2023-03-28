@@ -66,7 +66,7 @@ function RenderProducts(arr) {
   
     // product= {name, price, image} -> product.image
     const productImg = document.createElement('img');
-    productImg.setAttribute('src', product.image);
+    productImg.setAttribute('src', productList.img);
   
     const productInfo = document.createElement('div');
     productInfo.classList.add('product-info');
