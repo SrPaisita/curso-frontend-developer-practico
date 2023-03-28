@@ -4,6 +4,7 @@ const menuHamicon = document.querySelector('.menu')
 const mobilemenu = document.querySelector('.mobile-menu')
 const menuCarritoIcon = document.querySelector('.navbar-shopping-cart')
 const aside = document.querySelector('.product-detail')
+const asideDos = document.querySelector('.product-detail-secondary')
 const cardsContainer = document.querySelector('.cards-container')
 
 menuEmail.addEventListener("click", toggleDesktopMenu)
